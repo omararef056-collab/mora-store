@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mora Store</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Welcome to Mora Store</h1>
+        <p>We Sell perfumes</p>
+
+        <h2>Our Products</h2>
+        <h3>Dior Sauvage</h3>
+        <p>Fresh and elegant fragrance for men.</p>
+        <p> Price: <del> 600 EGP</del> <ins>450 EGP</ins> </p>
+        <p>Discount: <span>25%</span> </p>
+        <img src="imgs/dior_sauvage.jpg" alt="Dior Sauvage Perfume" width="250"> <br>
+        <a href="https://www.google.com/" target="_blank">BuyNow</a>
+
+        <h4>Available sizes</h4> 
+        <ul>  
+            <li>50 ml</li>
+            <li>100 ml</li>
+            <li>150 ml</li>
+        </ul>
+
+        <h4>How to Buy</h4>
+        <ol>
+            <li>Choose Your Perfume</li>
+            <li> Add to Cart</li>
+            <li>Checkout</li>
+        </ol>
+
+        <FORM>
+
+            <label for="customer-name">Customer Name</label>
+            <input name="name" type="text" id="customer-name" required>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="Phone" required>
+            <br>
+            
+            <label  for="perfume">Perfume</label>
+            <select name="perfume" id="perfume" required>
+                <option value="Dior Sauvage"> Dior Sauvage</option>
+                <option value="Dior Sauvage Elixir">Dior Sauvage Elixir</option>
+                <option value="Mancera Rose Vanilla">Mancera Rose Vanilla</option>
+            </select>
+            <br>
+            
+            <label  for="size">Perfume Size</label>
+            <select  name="size" id="size" required>
+                <option value="50ml">50ml</option>
+                <option value="100ml">100ml</option>
+                <option value="150ml">150ml</option>
+            </select>
+            <br>
+            <button type="submit">Place Order</button>
+
+
+        </FORM>
+
+    </body>
+
+</html>

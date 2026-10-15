@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+header h1{
+    margin-bottom: 5px;
+}
+
+header{
+    background-color:lightpink
+    ;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+.products img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto ;
+}
+.products{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 250px;
+    margin: 10px
+}
+.products a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding:5px;
+    border-radius: 10px;
+    display:inline-block;
+}
+form{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+footer{
+    background-color: rgba(165, 42, 42, 0.511);
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

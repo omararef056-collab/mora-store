@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Mora Store</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mora Store</h1>
+            <nav>
+            <a href="#about">About Us</a>
+            </nav>
+            <h2>Original Perfumes</h2>
+            <p>Welcome to our store</p>
+            </header>
+        <main>
+            <h3>Our Perfumes</h3>
+            <ul>
+                <li>
+                    <div class="products">
+                        <h3>Mancera Rose vanilla</h3>
+                        <img src="imgs/macera.jpg" alt="Mancera Rose Vanilla Perfume" width="150">
+                        <p>Price: <del>2000$</del> <ins>1500$</ins></p>
+                        <p>Discount:<span>25% OFF!!!</span></p>
+                        <a href="http://www.google.com" target="_blank">Buy Now</a>
+                    </div>
+            </li>
+
+            <li> 
+                <div class="products">
+                    <h3>Dior Sauvage</h3>
+                    <img src="imgs/dior_sauvage.jpg" alt="Dior Sauvage Perfume" width="150">
+                    <p>Price: <del>1000$</del> <ins>750$</ins></p>
+                    <p>Big Discount <span>25% Off!</span></p>
+                    <a href="http://www.google.com" target="_blank">Buy Now</a>
+                </div>
+            </li>
+            </ul>
+
+        <h4>Available Sizes</h4>
+        <ul>
+            <li>50ml</li>
+            <li>100ml</li>
+            <li>150ml</li>
+        </ul>
+
+        <h4>How To Buy</h4>
+        <ol>
+            <li>Choose your fav perfume</li>
+            <li>Add to the cart</li>
+            <li>Place Order</li>
+        </ol>
+        
+        <h3>Make an Order</h3>
+        <form>
+            <label for="clientname">Your name </label>
+            <input type="text" id="clientname" name="clientname" required>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br>
+            <label for="perfume">Choose Perfume</label>
+            <select name="perfume" id="perfume">
+                <option value="mancera_rose_vanilla">Mancera Rose Vanilla</option>
+                <option value="dior_sauvage">Dior sauvage</option>
+            </select>
+            <br>
+            <label for="size">Choose Size</label>
+            <select name="size" id="size">
+                <option value="50ml">50ml</option>
+                <option value="100ml">100ml</option>
+                <option value="150ml">150ml</option>
+            </select>
+            <br>
+            <button type="submit">Send Order</button>
+        </form>
+        <br>
+        <section id="about">
+            <h4>About Us</h4>
+            <p>Welcome to our perfumes store </p>
+            <p>we have a lot of original luxury perfumes , Enjoy!! </p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Contact us: +201206253881 </p>
+        <p>Email: Omararef056@gmail.com </p>
+        <p>Mora Store - All rights Reserved 2026 ©</p>
+    </footer>
+    </body>
+
+</html>
