@@ -4,42 +4,71 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Mora Store</title>
     </head>
     <body>
         <header>
             <h1>Mora Store</h1>
             <nav>
-            <a href="#about">About Us</a>
+            <a href="#about" class="contact">Contact Us</a> <br>
             </nav>
             <h2>Original Perfumes</h2>
             <p>Welcome to our store</p>
             </header>
         <main>
             <h3>Our Perfumes</h3>
-            <ul>
-                <li>
-                    <div class="products">
-                        <h3>Mancera Rose vanilla</h3>
-                        <img src="imgs/macera.jpg" alt="Mancera Rose Vanilla Perfume" width="150">
-                        <p>Price: <del>2000$</del> <ins>1500$</ins></p>
-                        <p>Discount:<span>25% OFF!!!</span></p>
+            <div class="products">
+            
+                    <div class="product">
+                        <h3>Tobacco Vanilla</h3>
+                        <img src="imgs/tobacco.jpeg" alt="Tobacco Vanilla Perfume" width="150">
+                        <p class="price">Price: <del>2000$</del> <ins>1500$</ins></p>
+                        <p class="sale">SALE 25% </p>
                         <a href="http://www.google.com" target="_blank">Buy Now</a>
                     </div>
-            </li>
 
-            <li> 
-                <div class="products">
+                    <div class="product">
+                        <h3>Versace eros</h3>
+                        <img src="imgs/versace.jpeg" alt="versace eros Perfume" width="150">
+                        <p class="price">Price: <del>2000$</del> <ins>1500$</ins></p>
+                        <p class="sale">SALE 25% </p>
+                        <a href="http://www.google.com" target="_blank">Buy Now</a>
+                    </div>
+
+                    <div class="product">
+                        <h3>Mancera Rosa Vanilla</h3>
+                        <img src="imgs/macera.jpg" alt="Mancera Rose Vanilla Perfume" width="150">
+                        <p class="price">Price: <del>2000$</del> <ins>1500$</ins></p>
+                        <p class="sale">SALE 25% </p>
+                        <a href="http://www.google.com" target="_blank">Buy Now</a>
+                    </div>
+            
+                    <div class="product">
+                        <h3>khumra perfume</h3>
+                        <img src="imgs/khumra.jpeg" alt="khumra" width="150">
+                        <p class="price">Price: <del>3000$</del> <ins>2250$</ins></p>
+                        <p class="sale">SALE 25% </p>
+                        <a href="http://www.google.com" target="_blank">Buy Now</a>
+                    </div>
+
+                    <div class="product">
+                        <h3>stronger with you</h3>
+                        <img src="imgs/stronger.jpeg" alt="stronger with you perfume" width="150">
+                        <p class="price">Price: <del>4000$</del> <ins>3000$</ins></p>
+                        <p class="sale">SALE 25% </p>
+                        <a href="http://www.google.com" target="_blank">Buy Now</a>
+                    </div>
+            
+                <div class="product">
                     <h3>Dior Sauvage</h3>
                     <img src="imgs/dior_sauvage.jpg" alt="Dior Sauvage Perfume" width="150">
-                    <p>Price: <del>1000$</del> <ins>750$</ins></p>
-                    <p>Big Discount <span>25% Off!</span></p>
+                    <p class="price">Price: <del>1000$</del> <ins>750$</ins></p>
+                        <p class="sale">SALE 25% </p>
                     <a href="http://www.google.com" target="_blank">Buy Now</a>
                 </div>
-            </li>
-            </ul>
-
+            </div>
+            
         <h4>Available Sizes</h4>
         <ul>
             <li>50ml</li>
@@ -66,6 +95,10 @@
             <select name="perfume" id="perfume">
                 <option value="mancera_rose_vanilla">Mancera Rose Vanilla</option>
                 <option value="dior_sauvage">Dior sauvage</option>
+                <option value="khumra">Khumra</option>
+                <option value="stronger with you">stronger with you</option>
+                <option value="versace eros">Versace eros</option>
+                <option value="Tobacco Vanilla">Tobacco Vanilla</option>
             </select>
             <br>
             <label for="size">Choose Size</label>
@@ -78,14 +111,10 @@
             <button type="submit">Send Order</button>
         </form>
         <br>
-        <section id="about">
-            <h4>About Us</h4>
-            <p>Welcome to our perfumes store </p>
-            <p>we have a lot of original luxury perfumes , Enjoy!! </p>
-        </section>
+        
     </main>
     <hr>
-    <footer>
+    <footer id="about">
         <p>Contact us: +201206253881 </p>
         <p>Email: Omararef056@gmail.com </p>
         <p>Mora Store - All rights Reserved 2026 ©</p>

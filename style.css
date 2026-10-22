@@ -1,60 +1,129 @@
-body{
-    background-color: white;
-}
-header h1{
-    margin-bottom: 5px;
+
+body {
+    background-color: #F5F0E8;
+    font-family: "Roboto", sans-serif;
 }
 
-header{
-    background-color:lightpink
-    ;
-    color: black;
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+header {
+    background-color: #1B1B1B;
+    color: #C6A15B;
     font-size: 24px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #C6A15B;
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
 }
-.products img{
-    width: 200px;
-    height: 200px;
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .products {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+.product {
+    position: relative;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #C6A15B;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     display: block;
-    margin: 0 auto ;
+    margin: 0 auto;
+    object-fit: contain;
 }
-.products{
-    text-align: center;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 15px;
-    width: 250px;
-    margin: 10px
-}
-.products a{
-    background-color: blue;
-    color: white;
+
+.product a {
+    background-color: #292929;
+    color: #C6A15B;
     text-decoration: none;
-    padding:5px;
+    padding: 5px;
+    border: 1px solid #C6A15B;
     border-radius: 10px;
-    display:inline-block;
+    display: inline-block;
 }
-form{
-    background-color: whitesmoke;
-    color: black;
-    border: 2px solid black;
+
+.price {
+    text-decoration: none;
+}
+
+.sale {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #B83232;
+    color: #FFFFFF;
+    border: 2px solid #8F2424;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 2;
+}
+
+form {
+    background-color: #FFFFFF;
+    color: #292929;
+    border: 2px solid #C6A15B;
     border-radius: 20px;
     width: 600px;
     text-align: center;
     padding: 20px;
     margin: 10px;
-    
 }
-footer{
-    background-color: rgba(165, 42, 42, 0.511);
-    color: black;
-    border: 2px solid black;
+
+.contact {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 2px solid #C6A15B;
+    color: #C6A15B;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #292929;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #E8D8B8;
+    color: #292929;
+    border: 2px solid #C6A15B;
     border-radius: 20px;
     padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+footer p {
+    line-height: 1.6;
 }
